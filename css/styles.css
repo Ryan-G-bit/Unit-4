@@ -1,0 +1,129 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.index {
+    background-image: linear-gradient(#041a02,#19f205 );
+}
+.music {
+    background-image: linear-gradient(#2707b3, #74f5f7);
+}
+/*Mobile Viewport*/
+.navbar {
+    font-size: 60pt;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.d {
+    font-size: 80pt;
+    text-align: center;
+    color: white;
+}
+#icon {
+    float: left;
+}
+.navbar-toggler-icon {
+    height: 100px;
+    width: 100px;
+}
+article {
+    text-align: center;
+    font-size: 60pt;
+    margin: 2%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.e {
+    font-size: 60pt;
+    text-align: center;
+    margin: 3%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.a {
+    font-size: 70pt;
+    text-align: center;
+    margin: 3%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+figure {
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+    font-size: 60pt;
+    margin: 2%;
+    margin-bottom: 7%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+footer {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.col {
+    text-align: center;
+    font-size: 60pt;
+    margin: 2%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.desktop {
+    display: none;
+}
+.mobile {
+    display: block;
+}
+.btn {
+    text-align: center;
+}
+.grid-project {
+    margin: 5%;
+}
+
+/*Desktop Viewport*/
+@media screen and (min-width: 1000px) {
+
+    .grid {
+        width: 40%;
+        float: left;
+        margin: 5%;
+    }
+    .navbar {
+        font-size: 15pt;
+    }
+    figure {
+        padding: 2%;
+    }
+    figcaption {
+        font-size: 20pt;
+        margin-top: 0%;
+    }
+    article {
+        font-size: 30pt;
+    }
+    .e {
+        font-size: 25pt;
+    }
+    .a {
+        font-size: 30pt;
+    }
+    footer {
+        font-size: 15pt;
+    }
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+    .pro {
+        display: none;
+    }
+}
